@@ -1,9 +1,9 @@
 /* default color scheme */
-@define-color bg_color #dedede;
-@define-color fg_color #555555;
-@define-color base_color #f9f9f9;
-@define-color text_color #333333;
-@define-color selected_bg_color #d64937;
+@define-color base_color #333333;
+@define-color bg_color #2d2d2d;
+@define-color text_color #dedede;
+@define-color fg_color #dcdcdc;
+@define-color selected_bg_color #1793D1;
 @define-color selected_fg_color #f9f9f9;
 @define-color tooltip_bg_color #2d2d2d;
 @define-color tooltip_fg_color #dedede;
@@ -39,8 +39,8 @@
 /* widget colors */
 @define-color menubar_bg_color #2d2d2d;
 @define-color menubar_fg_color #dcdcdc;
-@define-color toolbar_bg_color #dedede;
-@define-color toolbar_fg_color #555555;
+@define-color toolbar_bg_color #2d2d2d;
+@define-color toolbar_fg_color #dcdcdc;
 @define-color menu_bg_color #2d2d2d;
 @define-color menu_fg_color #dcdcdc;
 @define-color panel_bg_color #2d2d2d;
@@ -59,7 +59,7 @@
 @define-color wm_border_unfocused #393939;
 
 @import url("gtk-widgets.css");
-@import url("gtk-widgets-assets.css");
+@import url("gtk-widgets-assets-dark.css");
 @import url("apps/gnome-applications.css");
 @import url("apps/granite-widgets.css");
 @import url("apps/unity.css");
